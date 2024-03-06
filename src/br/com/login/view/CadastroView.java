@@ -176,7 +176,7 @@ public class CadastroView extends javax.swing.JFrame {
         jPanel1.add(jPanel5);
         jPanel5.setBounds(0, 500, 800, 10);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Logo Pequena.png")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\GITHUB\\ws-projetos\\futuratec\\src\\Recursos\\LogoPequena.png")); // NOI18N
         jLabel7.setText("jLabel7");
         jPanel1.add(jLabel7);
         jLabel7.setBounds(10, 10, 120, 30);
