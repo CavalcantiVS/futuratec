@@ -160,7 +160,7 @@ public class LoginView extends javax.swing.JFrame {
             .addGap(0, 6, Short.MAX_VALUE)
         );
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Logo Pequena.png")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\GITHUB\\ws-projetos\\futuratec\\src\\Recursos\\LogoPequena.png")); // NOI18N
         jLabel5.setText("jLabel5");
 
         jButtonLimpar.setBackground(new java.awt.Color(255, 204, 102));
