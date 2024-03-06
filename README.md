@@ -23,7 +23,6 @@ Para garantir o funcionamento adequado do FuturaTec, seu sistema deve atender ao
 
 Apache NetBeans: IDE 14
 Java: Versão 19.0.2.0
-Figma: Versão 116.10.8 (Para acessar o fluxograma do projeto, utilize o seguinte link e senha: [Link do Figma] - Senha: INSIRA_A_SENHA_AQUI)
 Pacote Office: 365
 Canva: Versão 1.67.0
 Assegure-se de ter todas as ferramentas necessárias instaladas e atualizadas para utilizar o FuturaTec sem problemas.
@@ -35,3 +34,4 @@ Para utilizar o FuturaTec, siga os passos abaixo:
 1. Clone o repositório para sua máquina local.
 2. Certifique-se de ter o ambiente de desenvolvimento adequado (especificar requisitos, como versões do Java e NetBeans).
 3. Execute o arquivo principal do projeto para iniciar a aplicação.
+4. Para acesso ao sistema, digite o usuário: futuratec e senha: 1234
