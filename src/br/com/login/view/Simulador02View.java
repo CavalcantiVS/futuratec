@@ -163,10 +163,8 @@ public class Simulador02View extends javax.swing.JFrame {
         jLabel5.setText("Quantos carbonos a imagem possui? ");
         jPanel1.add(jLabel5);
         jLabel5.setBounds(280, 170, 340, 25);
-
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Carbono02.PNG")); // NOI18N
         jPanel1.add(jLabel7);
-        jLabel7.setBounds(130, 160, 130, 110);
+        jLabel7.setBounds(120, 160, 130, 110);
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 0, 0));
@@ -233,20 +231,17 @@ public class Simulador02View extends javax.swing.JFrame {
         jMenuBar1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jMenuLigaçõesCarbono.setForeground(new java.awt.Color(255, 0, 0));
-        jMenuLigaçõesCarbono.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Ligações Carbono.png")); // NOI18N
         jMenuLigaçõesCarbono.setText("Ligações Carbono");
         jMenuLigaçõesCarbono.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jMenuItemSimulador02.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_4, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
         jMenuItemSimulador02.setForeground(new java.awt.Color(255, 0, 0));
-        jMenuItemSimulador02.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Simulador.png")); // NOI18N
         jMenuItemSimulador02.setText("Simulador 02");
         jMenuItemSimulador02.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenuLigaçõesCarbono.add(jMenuItemSimulador02);
 
         jMenuBar1.add(jMenuLigaçõesCarbono);
 
-        jMenuSair.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Sair.png")); // NOI18N
         jMenuSair.setText("Sair");
         jMenuSair.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenuSair.addActionListener(new java.awt.event.ActionListener() {
@@ -256,7 +251,6 @@ public class Simulador02View extends javax.swing.JFrame {
         });
 
         jMenuItemCapa.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_7, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
-        jMenuItemCapa.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Capa.png")); // NOI18N
         jMenuItemCapa.setText("Capa");
         jMenuItemCapa.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenuItemCapa.addActionListener(new java.awt.event.ActionListener() {
@@ -267,7 +261,6 @@ public class Simulador02View extends javax.swing.JFrame {
         jMenuSair.add(jMenuItemCapa);
 
         jMenuItemLogin.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_8, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
-        jMenuItemLogin.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Login.png")); // NOI18N
         jMenuItemLogin.setText("Login");
         jMenuItemLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenuItemLogin.addActionListener(new java.awt.event.ActionListener() {
@@ -278,7 +271,6 @@ public class Simulador02View extends javax.swing.JFrame {
         jMenuSair.add(jMenuItemLogin);
 
         jMenuItemNovoCadastro.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_9, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
-        jMenuItemNovoCadastro.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Novo Cadastro.png")); // NOI18N
         jMenuItemNovoCadastro.setText("Novo Cadastro");
         jMenuItemNovoCadastro.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenuItemNovoCadastro.addActionListener(new java.awt.event.ActionListener() {

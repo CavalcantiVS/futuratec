@@ -39,7 +39,6 @@ public class Simulador01View extends javax.swing.JFrame {
         jButtonAvançar01 = new javax.swing.JButton();
         jLabel8 = new javax.swing.JLabel();
         jComboBoxClassificação = new javax.swing.JComboBox<>();
-        jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
@@ -47,6 +46,7 @@ public class Simulador01View extends javax.swing.JFrame {
         jComboBoxLigação = new javax.swing.JComboBox<>();
         jButtonVoltar2 = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenuLigaçõesCarbono = new javax.swing.JMenu();
         jMenuItemSimulador01 = new javax.swing.JMenuItem();
@@ -119,7 +119,7 @@ public class Simulador01View extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(255, 0, 0));
         jLabel2.setText("Nível Fácil");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(120, 140, 90, 30);
+        jLabel2.setBounds(680, 20, 90, 30);
 
         jButtonVerificar.setBackground(new java.awt.Color(255, 204, 102));
         jButtonVerificar.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -161,29 +161,25 @@ public class Simulador01View extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jComboBoxClassificação);
-        jComboBoxClassificação.setBounds(530, 290, 210, 35);
-
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Carbono01.PNG")); // NOI18N
-        jPanel1.add(jLabel3);
-        jLabel3.setBounds(120, 160, 160, 110);
+        jComboBoxClassificação.setBounds(540, 320, 210, 35);
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Qual é sua classificação");
         jPanel1.add(jLabel4);
-        jLabel4.setBounds(280, 230, 340, 25);
+        jLabel4.setBounds(280, 250, 340, 25);
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Quantos carbonos a imagem possui? ");
         jPanel1.add(jLabel5);
-        jLabel5.setBounds(280, 170, 340, 25);
+        jLabel5.setBounds(280, 190, 340, 25);
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Qual é o tipo de ligação?");
         jPanel1.add(jLabel6);
-        jLabel6.setBounds(280, 200, 340, 25);
+        jLabel6.setBounds(280, 220, 340, 25);
 
         jComboBoxQuantidade.setBackground(new java.awt.Color(255, 204, 102));
         jComboBoxQuantidade.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -197,7 +193,7 @@ public class Simulador01View extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jComboBoxQuantidade);
-        jComboBoxQuantidade.setBounds(100, 290, 170, 35);
+        jComboBoxQuantidade.setBounds(110, 320, 170, 35);
 
         jComboBoxLigação.setBackground(new java.awt.Color(255, 204, 102));
         jComboBoxLigação.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -211,7 +207,7 @@ public class Simulador01View extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jComboBoxLigação);
-        jComboBoxLigação.setBounds(300, 290, 200, 35);
+        jComboBoxLigação.setBounds(310, 320, 200, 35);
 
         jButtonVoltar2.setBackground(new java.awt.Color(255, 204, 102));
         jButtonVoltar2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -230,26 +226,28 @@ public class Simulador01View extends javax.swing.JFrame {
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Simulador 01");
         jPanel1.add(jLabel7);
-        jLabel7.setBounds(250, 40, 320, 64);
+        jLabel7.setBounds(250, 10, 320, 64);
+
+        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\GITHUB\\ws-projetos\\futuratec\\src\\Recursos\\Imagens T.i\\Ligação de Carbono.png")); // NOI18N
+        jLabel9.setText("jLabel9");
+        jPanel1.add(jLabel9);
+        jLabel9.setBounds(160, 80, 480, 90);
 
         jMenuBar1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 3, true));
         jMenuBar1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jMenuLigaçõesCarbono.setForeground(new java.awt.Color(255, 0, 0));
-        jMenuLigaçõesCarbono.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Ligações Carbono.png")); // NOI18N
         jMenuLigaçõesCarbono.setText("Ligações Carbono");
         jMenuLigaçõesCarbono.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jMenuItemSimulador01.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_3, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
         jMenuItemSimulador01.setForeground(new java.awt.Color(255, 0, 0));
-        jMenuItemSimulador01.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Simulador.png")); // NOI18N
         jMenuItemSimulador01.setText("Simulador 01");
         jMenuItemSimulador01.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenuLigaçõesCarbono.add(jMenuItemSimulador01);
 
         jMenuBar1.add(jMenuLigaçõesCarbono);
 
-        jMenuSair.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Sair.png")); // NOI18N
         jMenuSair.setText("Sair");
         jMenuSair.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenuSair.addActionListener(new java.awt.event.ActionListener() {
@@ -259,7 +257,6 @@ public class Simulador01View extends javax.swing.JFrame {
         });
 
         jMenuItemCapa.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_7, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
-        jMenuItemCapa.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Capa.png")); // NOI18N
         jMenuItemCapa.setText("Capa");
         jMenuItemCapa.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenuItemCapa.addActionListener(new java.awt.event.ActionListener() {
@@ -270,7 +267,6 @@ public class Simulador01View extends javax.swing.JFrame {
         jMenuSair.add(jMenuItemCapa);
 
         jMenuItemLogin.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_8, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
-        jMenuItemLogin.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Login.png")); // NOI18N
         jMenuItemLogin.setText("Login");
         jMenuItemLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenuItemLogin.addActionListener(new java.awt.event.ActionListener() {
@@ -281,7 +277,6 @@ public class Simulador01View extends javax.swing.JFrame {
         jMenuSair.add(jMenuItemLogin);
 
         jMenuItemNovoCadastro.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_9, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
-        jMenuItemNovoCadastro.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Novo Cadastro.png")); // NOI18N
         jMenuItemNovoCadastro.setText("Novo Cadastro");
         jMenuItemNovoCadastro.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenuItemNovoCadastro.addActionListener(new java.awt.event.ActionListener() {
@@ -448,12 +443,12 @@ public class Simulador01View extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> jComboBoxQuantidade;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItemCapa;
     private javax.swing.JMenuItem jMenuItemLogin;

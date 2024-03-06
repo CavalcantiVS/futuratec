@@ -38,7 +38,6 @@ public class ObjetivoSiteView extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jButtonVoltar = new javax.swing.JButton();
-        jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
@@ -149,13 +148,6 @@ public class ObjetivoSiteView extends javax.swing.JFrame {
         });
         jPanel1.add(jButtonVoltar);
         jButtonVoltar.setBounds(650, 460, 100, 29);
-
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Ligação de Carbono.png")); // NOI18N
-        jLabel7.setText("jLabel7");
-        jPanel1.add(jLabel7);
-        jLabel7.setBounds(180, 350, 470, 100);
-
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\FuturaTec Pequeno.png")); // NOI18N
         jPanel1.add(jLabel8);
         jLabel8.setBounds(650, 10, 140, 40);
 
@@ -163,7 +155,6 @@ public class ObjetivoSiteView extends javax.swing.JFrame {
         jMenuBar1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jMenu1.setForeground(new java.awt.Color(255, 0, 0));
-        jMenu1.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Estrelinha.png")); // NOI18N
         jMenu1.setText("Objetivo do Site");
         jMenu1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenu1.addActionListener(new java.awt.event.ActionListener() {
@@ -173,7 +164,6 @@ public class ObjetivoSiteView extends javax.swing.JFrame {
         });
         jMenuBar1.add(jMenu1);
 
-        jMenuSair.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Sair.png")); // NOI18N
         jMenuSair.setText("Sair");
         jMenuSair.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenuSair.addActionListener(new java.awt.event.ActionListener() {
@@ -183,7 +173,6 @@ public class ObjetivoSiteView extends javax.swing.JFrame {
         });
 
         jMenuItemCapa.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_7, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
-        jMenuItemCapa.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Capa.png")); // NOI18N
         jMenuItemCapa.setText("Capa");
         jMenuItemCapa.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenuItemCapa.addActionListener(new java.awt.event.ActionListener() {
@@ -194,7 +183,6 @@ public class ObjetivoSiteView extends javax.swing.JFrame {
         jMenuSair.add(jMenuItemCapa);
 
         jMenuItemLogin.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_8, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
-        jMenuItemLogin.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Login.png")); // NOI18N
         jMenuItemLogin.setText("Login");
         jMenuItemLogin.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenuItemLogin.addActionListener(new java.awt.event.ActionListener() {
@@ -205,7 +193,6 @@ public class ObjetivoSiteView extends javax.swing.JFrame {
         jMenuSair.add(jMenuItemLogin);
 
         jMenuItemNovoCadastro.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_9, java.awt.event.InputEvent.SHIFT_DOWN_MASK));
-        jMenuItemNovoCadastro.setIcon(new javax.swing.ImageIcon("C:\\Users\\João Cavalcanti\\Downloads\\Imagens T.i\\Novo Cadastro.png")); // NOI18N
         jMenuItemNovoCadastro.setText("Novo Cadastro");
         jMenuItemNovoCadastro.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenuItemNovoCadastro.addActionListener(new java.awt.event.ActionListener() {
@@ -325,7 +312,6 @@ public class ObjetivoSiteView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenuBar jMenuBar1;
